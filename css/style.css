@@ -1,16 +1,19 @@
-body{
+body {
     background-image: url(../img/butt.jpg);
     font-family: Roboto;
 }
-*{
+
+* {
     margin: 0;
     padding: 0;
 }
-.logo-img{
+
+.logo-img {
     width: 70px;
     height: 50px;
 }
-.header-logo{
+
+.header-logo {
     display: flex;
     align-items: center;
     text-decoration: none;
@@ -18,16 +21,36 @@ body{
     font-size: 22px;
 }
 
-.nav-link{
+.nav-link {
     text-decoration: none;
     font-size: 20px;
     color: darkviolet;
 }
-.nav-list{
+
+.nav-list {
     display: flex;
     justify-content: space-around;
     width: 30%;
     list-style: none;
 }
 
+/* .multserials-item {
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: ;
+}
 
+
+.multserials-img {
+    width: 50%;
+
+}
+
+.multserials-name {
+    width: 50%;
+}
+
+.multserials-text {
+    width: 50%;
+} */
